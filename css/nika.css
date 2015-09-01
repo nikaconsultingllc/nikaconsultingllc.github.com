@@ -64,6 +64,11 @@ h6 {
     background-color: #f7f7f7;
 }
 
+
+.bg-technology {
+    background-color: #f7f6f2;
+}
+
 .bg-darkest-gray {
     background-color: #222;
 }
@@ -339,13 +344,33 @@ section h2.section-heading {
     font-size: 40px;
 }
 
+section h2.section-heading-small{
+    margin-top: 60px;
+    font-size: 28px;
+}
+
 section h3.section-subheading {
-    margin-bottom: 75px;
+    margin-bottom: 45px;
+    padding: 0 80px;
     text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-style: italic;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    line-height: 26px;
     font-weight: 400;
+}
+
+.section-list{
+    max-width: 500px;
+    margin: 20px auto 0;
+    text-transform: none;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.section-list li{
+    margin: 0 0 10px;
 }
 
 @media(min-width:768px) {
@@ -357,6 +382,11 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+}
+
+
+#technology{
+    background:
 }
 
 #portfolio .portfolio-item {
@@ -658,6 +688,10 @@ section h3.section-subheading {
 
 aside.clients img {
     margin: 50px auto;
+}
+
+section#approach{
+    padding-top: 0;
 }
 
 section#contact {
