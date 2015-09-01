@@ -360,8 +360,9 @@ section h3.section-subheading {
 }
 
 .section-list{
-    max-width: 500px;
+    max-width: 600px;
     margin: 20px auto 0;
+    text-align: left;
     text-transform: none;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
