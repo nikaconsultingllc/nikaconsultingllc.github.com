@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 .text-muted {
@@ -295,7 +295,7 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Georgia", "Times New Roman", serif;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
@@ -318,7 +318,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "Georgia", "Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
@@ -328,9 +328,9 @@ header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
+        font-size: 70px;
         font-weight: 700;
-        line-height: 75px;
+        line-height: 80px;
     }
 }
 
@@ -359,25 +359,18 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
-.section-list{
-    max-width: 600px;
-    margin: 20px auto 0;
-    text-align: left;
-    text-transform: none;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 18px;
-    line-height: 26px;
-    font-weight: 400;
-}
-
-.section-list li{
-    margin: 0 0 10px;
-}
-
 @media(min-width:768px) {
     section {
         padding: 150px 0;
     }
+}
+
+
+.approach__item{
+    display: block;
+    margin: 40px 0;
+    font-size: 20px;
+    font-weight: normal;
 }
 
 .service-heading {
@@ -452,7 +445,7 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Georgia", "Times New Roman", serif;
     font-size: 16px;
     font-style: italic;
 }
@@ -834,7 +827,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Georgia", "Times New Roman", serif;
     font-size: 16px;
     font-style: italic;
 }
