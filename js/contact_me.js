@@ -8,17 +8,15 @@
 //         submitSuccess: function($form, event) {
 //             event.preventDefault(); // prevent default submit behaviour
 //             // get values from FORM
-//             var name = $("input#name").val();
-//             var email = $("input#email").val();
-//             var phone = $("input#phone").val();
-//             var message = $("textarea#message").val();
+//             var name = $("input#mce-NAME").val();
+//             var email = $("input#mce-EMAIL").val();
+//             var phone = $("input#mce-PHONE").val();
+//             var message = $("textarea#mce-MESSAGE").val();
 //             var firstName = name; // For Success/Failure Message
-//             // Check for white space in name for Success/Fail message
-//             if (firstName.indexOf(' ') >= 0) {
-//                 firstName = name.split(' ').slice(0, -1).join(' ');
-//             }
+
 //             $.ajax({
-//                 url: "././mail/contact_me.php",
+//                 url: "https://nikaconsultingllc.us11.list-manage.com/subscribe/post?u=459dd777b359fb92247c404cf&id=3b9be077e2",
+//                 crossDomain: true,
 //                 type: "POST",
 //                 data: {
 //                     name: name,
@@ -27,6 +25,8 @@
 //                     message: message
 //                 },
 //                 cache: false,
+//                 // dataType: 'jsonp',
+
 //                 success: function() {
 //                     // Success message
 //                     $('#success').html("<div class='alert alert-success'>");
