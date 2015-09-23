@@ -902,3 +902,50 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #84BE32;
 }
+
+.jetrockets_team{
+    position: relative;
+    margin-right: -100px;
+    margin-bottom: 30px;
+    /*margin-left: 50px;*/
+}
+
+.jetrockets_team__founder{
+    position: relative;
+    margin-right: 10px;
+}
+
+.jetrockets_team__employee{
+    position: absolute;
+    /*top: 2px;*/
+    left: 2px;
+    padding: 4px;
+    border-radius: 50%;
+    background: #f1f1f1;
+}
+
+.jetrockets_team__employee:hover{
+    z-index: 100;
+}
+
+.jetrockets_team__employee_l1{
+    top: 30px;
+}
+.jetrockets_team__employee_l2{
+    top: 20px;
+}
+.jetrockets_team__employee_l3{
+    top: 10px;
+}
+.jetrockets_team__employee_r1{
+    left: 116px;
+    top: 30px;
+}
+.jetrockets_team__employee_r2{
+    left: 116px;
+    top: 20px;
+}
+.jetrockets_team__employee_r3{
+    left: 116px;
+    top: 10px;
+}
